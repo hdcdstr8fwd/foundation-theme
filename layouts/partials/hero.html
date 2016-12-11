@@ -1,0 +1,10 @@
+{{ "<!-- BEGIN HERO PANEL -->" | safeHTML }}
+
+<section class="hero-panel">
+	<div class="wrapper">
+		<h1>{{ .Site.Params.hero.herotitle }}</h1>
+		<p>{{ .Site.Params.hero.herodiscription }}</p>
+		<a href="" class="button primary">{{ .Site.Params.hero.btnblue }}</a>
+		<a href="" class="button success">{{ .Site.Params.hero.btngreen }}</a>
+	</div>
+</section> {{ "<!-- END HERO PANEL -->" | safeHTML }}

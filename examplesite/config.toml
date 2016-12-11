@@ -1,0 +1,59 @@
+baseurl = "/"
+author = "Howard Colin"
+title = "Hugo Foundation"
+languageCode = "en-us"
+theme = "hugof"
+enableRobotsTXT = true
+SectionPagesMenu = ["main", "social"]
+
+[params.meta]
+description = "Hugo and Foundation mobile enabled theme."
+keywords = "foundation6, hugo, responsive, theme, mobile, developer"
+
+[params.hero]
+herotitle = "Welcome! to Hugo-Foundation"
+herodiscription = "A simple, mobile friendly theme for Hugo. Built using Foundation."
+btnblue = "Learn More"
+btngreen = "Send Us a Message"
+
+[params.main]
+contentOneTitle = "Easy to use"
+contentTwoTitle = "See Gary's Tutorial"
+
+contentOneBody = "A simple and easy to use hugo theme that anyone can expand and develop further. The design was ported to a Hugo Theme from the youtube video series posted by Gary Jennings. You can easily change the layout of this section in the main.html partial in the themes dir"
+
+contentTwoBody = "You can see Gary's tutorial [here:](https://www.youtube.com/watch?v=2QcpR6cHpnk) *Markdown* can be used in these two panels to quickly **style** content."
+
+[params.footer]
+phone = "02920 000000"
+email = "hello@example.com"
+address = "123 Busy Street"
+
+[[menu.main]]
+name = "About"
+url = "/about"
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+
+[[menu.main]]
+name = "Services"
+url = "/services"
+
+[[menu.social]]
+name = "Facebook"
+url = "http://facebook.com"
+
+[[menu.social]]
+name = "Twitter"
+url = "http://twitter.com"
+
+[[menu.social]]
+name = "Instagram"
+url = "http://instagram.com"
+
+[[menu.social]]
+name = "Github"
+url = "http://github.com"
+

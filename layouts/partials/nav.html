@@ -1,0 +1,17 @@
+{{ "<!-- BEGIN NAV BAR DESKTOP -->" | safeHTML }}
+
+<nav class="top-bar nav-desktop ">
+	<div class="wrapper">
+		<div class="top-bar-left">
+			<a href="{{ .Site.BaseURL }}"><h3 class="site-logo">{{ .Site.Title }}</h3></a>
+		</div>
+  		<div class="top-bar-right">
+        	<ul class="menu horizontal menu-desktop">
+			{{ $currentNode := . }}	
+			{{ range .Site.Menus.main }}
+          	<li><a class="nav-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name}}</a></li>
+			{{end}}
+        	</ul>
+  	  	</div>
+	</div>
+</nav> {{ "<!-- END NAV BAR DESKTOP -->" | safeHTML }}
