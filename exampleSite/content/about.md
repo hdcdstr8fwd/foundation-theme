@@ -3,14 +3,14 @@ title = "About"
 layout = "single-para"
 +++
 
-This theme was made with Hugo v 0.17 on a Mac. It coded mostly using Textmate and Firefox. It includes a number of features that will help a developer create and mange websites. 
+This theme was made with Hugo v0.17 on a Mac. It was coded mostly using Textmate and Firefox. It includes a number of features that will help a developer create and manage websites. 
 
 - Responsive design mobile ready
 - Custom CSS ability
 - Pre defined archetypes
 - Markdown
 
-To install this theme you need to download the latest version of [Hugo](http://gohugo.io) from their website. Follow the instructions to install and configure Hugo for your system. 
+To install this theme you need to download the latest version of [Hugo](https://gohugo.io) from their website. Follow the instructions to install and configure Hugo for your system. 
 
 One you have Hugo installed run the following in your project directory from the Command Line. 
 
@@ -20,7 +20,7 @@ Once this has run, you will have a new hugo site. Congrats. We are not finished 
 
 Within your themes directory run the following command. 
 
-	$ git clone https://github.com/hdcdstr8fwd/hugo-foundation
+	$ git clone https://github.com/hdcdstr8fwd/foundation-theme.git
 
 This will place the theme files within the project theme folder. Have a look at the example config.toml to see how to configure the site.
 
