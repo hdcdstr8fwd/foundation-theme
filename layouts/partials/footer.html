@@ -24,7 +24,7 @@
 			<hr>
 			{{ $currentNode := . }}
 			{{ range .Site.Menus.social }}
-			<a class="nav-item{{if or ($currentNode.IsMenuCurrent "social" .) ($currentNode.HasMenuCurrent "social" .) }} active{{end}}" href="{{.URL}}">{{ .Name}}</a>
+			<a class="nav-item{{if or ($currentNode.IsMenuCurrent "social" .) ($currentNode.HasMenuCurrent "social" .) }} active{{end}}" href="{{.URL}}" rel="me">{{ .Name}}</a>
 			{{end}}
 		</div>
 
