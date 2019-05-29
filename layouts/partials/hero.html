@@ -4,7 +4,7 @@
 	<div class="wrapper">
 		<h1>{{ .Site.Params.hero.herotitle }}</h1>
 		<p>{{ .Site.Params.hero.herodiscription }}</p>
-		<a href="" class="button primary">{{ .Site.Params.hero.btnblue }}</a>
-		<a href="" class="button success">{{ .Site.Params.hero.btngreen }}</a>
+		{{ if isset .Site.Params.hero "btnblue" }}<a href="" class="button primary">{{ .Site.Params.hero.btnblue }}</a> {{ end }}
+                {{ if isset .Site.Params.hero "btngreen" }}<a href="" class="button success">{{ .Site.Params.hero.btngreen }}</a> {{ end }}
 	</div>
 </section> {{ "<!-- END HERO PANEL -->" | safeHTML }}
